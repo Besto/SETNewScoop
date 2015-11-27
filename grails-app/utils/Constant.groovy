@@ -15,4 +15,5 @@ class Constant {
     public static int asdfasdf = 555;
     public static int egabsure = 555;
     public static int ozsavior = 555;
+    public static int ozsavior2 = 555;
 }
