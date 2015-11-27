@@ -8,5 +8,6 @@ class Constant {
     public static int oz = 1;
     public static int gap = 2;
     public static int gap2 = 2;
+    public static int gap3 = 2;
 
 }
