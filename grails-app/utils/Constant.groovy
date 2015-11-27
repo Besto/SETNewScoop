@@ -17,4 +17,5 @@ class Constant {
     public static int ozsavior = 555;
     public static int ozsavior2 = 555;
     public static int fucktheworld = 555;
+    public static int fucktheworld2 = 555;
 }
