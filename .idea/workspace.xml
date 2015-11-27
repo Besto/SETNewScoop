@@ -100,8 +100,8 @@
       <file leaf-file-name="Constant.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7545692" vertical-offset="0" max-vertical-offset="425">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.7101828" vertical-offset="0" max-vertical-offset="442">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -924,7 +924,7 @@
       <workItem from="1448373804252" duration="7472000" />
       <workItem from="1448465551706" duration="4156000" />
       <workItem from="1448634065360" duration="11322000" />
-      <workItem from="1448646067094" duration="1637000" />
+      <workItem from="1448646067094" duration="1712000" />
     </task>
     <task id="LOCAL-00001" summary="add logout">
       <created>1444840887740</created>
@@ -1034,11 +1034,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448648051243</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fuck you alll">
+      <created>1448648062686</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1448648062686</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212948000" />
+    <option name="totallyTimeSpent" value="213023000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1527,8 +1533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7545692" vertical-offset="0" max-vertical-offset="425">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.7101828" vertical-offset="0" max-vertical-offset="442">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
