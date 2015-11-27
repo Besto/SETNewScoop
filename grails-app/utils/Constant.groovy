@@ -12,4 +12,5 @@ class Constant {
 
     public static int dale = 555;
     public static int fkdale = 555;
+    public static int asdfasdf = 555;
 }
