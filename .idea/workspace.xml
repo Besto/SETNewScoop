@@ -1,150 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b760f13-f59d-4027-b1bb-d1dd74041f4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Constant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__cancel_closure17$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__cancel_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure11$_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure12$_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure12$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure12$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure12$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure13$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure13$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure14$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__create_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure13$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure14$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure15$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure15$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure16$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure16$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure16$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure16$_closure24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure17$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure17$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure17$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure18$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure18$_closure24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure18$_closure25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure19$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure19$_closure24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure20$_closure25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure20$_closure26.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure20$_closure27.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure21$_closure30.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure21$_closure31.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__delete_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__editLoan_closure13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__editLoan_closure14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__editLoan_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__editLoan_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__editLoan_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__editLoan_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure14$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure14$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure15$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure16$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure16$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure16$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure17$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure18$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure19$_closure24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure19$_closure25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure19$_closure26.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure19$_closure27.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure20$_closure28.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure20$_closure29.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__edit_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__searchMember_closure14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__searchMember_closure15$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__searchMember_closure15$_closure24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__searchMember_closure15$_closure25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__searchMember_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__update_closure12$_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__update_closure13$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__update_closure15$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__update_closure15$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$__tt__update_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_cancel_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_cancel_closure11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_cancel_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_cancel_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_create_closure5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_create_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_delete_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_delete_closure11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_delete_closure12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_delete_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_editLoan_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_editLoan_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_editLoan_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_edit_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_edit_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_edit_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_getLoanId_closure4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_getLoanId_closure5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure10$_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure10$_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure10$_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure10$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure10$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure11$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure11$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure11$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure12$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure12$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure12$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure13$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure13$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure13$_closure22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure13$_closure23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_notFound_closure13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_save_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_save_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_searchMember_closure4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_update_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_update_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController$_update_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/loan/getLoanId.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/loan/searchMember.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Loan$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Loan$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Loan$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Loan$__clinit__closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Loan.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Loan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/LoanController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp" afterPath="$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/loan/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/loan/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/loan/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/loan/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+    <list default="true" id="9b760f13-f59d-4027-b1bb-d1dd74041f4d" name="Default" comment="Merge branch 'master' of https://github.com/Besto/SETNewScoop&#10;&#10;# Conflicts:&#10;#&#9;grails-app/utils/Constant.groovy&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Constant.class" afterPath="$PROJECT_DIR$/target/classes/Constant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/utils/Constant.groovy" afterPath="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c8231efe-a543-4f78-adac-3f95d12f25d5" name="Failed commit: Default" comment="Besto : delete test.gsp" />
@@ -188,8 +47,8 @@
       <file leaf-file-name="addLoan.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="14.857142" vertical-offset="1187" max-vertical-offset="1853">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state vertical-scroll-proportion="-3.3877552" vertical-offset="1364" max-vertical-offset="1853">
+              <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -198,7 +57,7 @@
       <file leaf-file-name="messages.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5333333" vertical-offset="1300" max-vertical-offset="1615">
+            <state vertical-scroll-proportion="-7.4333334" vertical-offset="1273" max-vertical-offset="1615">
               <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
               <folding />
             </state>
@@ -208,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/loan/_form.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30169493" vertical-offset="1203" max-vertical-offset="5355">
-              <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+            <state vertical-scroll-proportion="-1.4025974" vertical-offset="4958" max-vertical-offset="5355">
+              <caret line="298" column="23" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -221,18 +80,18 @@
       <file leaf-file-name="validation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/validation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="833">
-              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="833">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constant.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Constant.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="187">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.22077923" vertical-offset="0" max-vertical-offset="385">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -241,8 +100,8 @@
       <file leaf-file-name="create.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/loan/create.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2448978" vertical-offset="147" max-vertical-offset="646">
-              <caret line="18" column="87" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="87" />
+            <state vertical-scroll-proportion="-2.2040815" vertical-offset="198" max-vertical-offset="646">
+              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -252,6 +111,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Besto" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -299,7 +163,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/loan/getLoanId.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/loan/searchMember.gsp" />
         <option value="$PROJECT_DIR$/grails-app/utils/Constant.java" />
-        <option value="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy" />
@@ -307,6 +170,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/web-app/js/validation.js" />
         <option value="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
       </list>
     </option>
   </component>
@@ -375,6 +239,24 @@
               <option name="myItemId" value="web-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -404,7 +286,159 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taglib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setnewscoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setnewscoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SETNewScoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setnewscoop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,7 +458,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
@@ -766,7 +800,7 @@
       <workItem from="1448367741565" duration="1327000" />
       <workItem from="1448373804252" duration="7472000" />
       <workItem from="1448465551706" duration="4156000" />
-      <workItem from="1448634065360" duration="3925000" />
+      <workItem from="1448634065360" duration="9152000" />
     </task>
     <task id="LOCAL-00001" summary="add logout">
       <created>1444840887740</created>
@@ -822,11 +856,35 @@
       <option name="project" value="LOCAL" />
       <updated>1446363873270</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Besto : edit Loan and add validation js">
+      <created>1448638061022</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1448638061022</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Besto : test Constant">
+      <created>1448639874497</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1448639874497</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Besto : test Constant">
+      <created>1448641256323</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1448641256323</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Besto : test Constant">
+      <created>1448641932035</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1448641932035</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203914000" />
+    <option name="totallyTimeSpent" value="209141000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -866,8 +924,9 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -884,7 +943,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -913,7 +971,10 @@
     <MESSAGE value="Besto : add test.gsp" />
     <MESSAGE value="Besto : delete test.gsp" />
     <MESSAGE value="Besto : add &amp; edit Loan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Besto : add &amp; edit Loan" />
+    <MESSAGE value="Besto : edit Loan and add validation js" />
+    <MESSAGE value="Besto : test Constant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Besto : test Constant" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1216,28 +1277,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="50.782608" vertical-offset="4789" max-vertical-offset="8024">
-          <caret line="213" column="38" selection-start-line="213" selection-start-column="38" selection-end-line="213" selection-end-column="38" />
-          <folding>
-            <element signature="e#25#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,33 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5333333" vertical-offset="1300" max-vertical-offset="1615">
-          <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.857142" vertical-offset="1187" max-vertical-offset="1853">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/loan/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2448978" vertical-offset="147" max-vertical-offset="646">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49671054" vertical-offset="2688" max-vertical-offset="3009">
@@ -1287,18 +1303,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/validation.js">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/loan/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="833">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        <state vertical-scroll-proportion="-2.2040815" vertical-offset="198" max-vertical-offset="646">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/loan/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30169493" vertical-offset="1203" max-vertical-offset="5355">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+        <state vertical-scroll-proportion="-1.4025974" vertical-offset="4958" max-vertical-offset="5355">
+          <caret line="298" column="23" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4333334" vertical-offset="1273" max-vertical-offset="1615">
+          <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="833">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="50.782608" vertical-offset="4789" max-vertical-offset="8024">
+          <caret line="213" column="38" selection-start-line="213" selection-start-column="38" selection-end-line="213" selection-end-column="38" />
+          <folding>
+            <element signature="e#25#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3877552" vertical-offset="1364" max-vertical-offset="1853">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22077923" vertical-offset="0" max-vertical-offset="385">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>

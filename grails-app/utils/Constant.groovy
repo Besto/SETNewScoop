@@ -10,4 +10,6 @@ class Constant {
     public static int gap2 = 2;
     public static int gap3 = 2;
 
+    public static int dale = 555;
+    public static int fkdale = 555;
 }
