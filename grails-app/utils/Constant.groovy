@@ -19,6 +19,4 @@ class Constant {
     public static int fucktheworld = 555;
     public static int fuckyouall = 777;
     public static int fucktheworld2 = 555;
-
-    public static int daletest = "Sawasdee Dragonball";
 }
