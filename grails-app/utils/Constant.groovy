@@ -6,4 +6,5 @@ class Constant {
     public static int maxGuaranteeBalance = 150000;
     public static int besto = 111;
     public static int oz = 1;
+    public static int gap = 2;
 }
