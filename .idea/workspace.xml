@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b760f13-f59d-4027-b1bb-d1dd74041f4d" name="Default" comment="">
+    <list default="true" id="9b760f13-f59d-4027-b1bb-d1dd74041f4d" name="Default" comment="Fuck you alll">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Constant.class" afterPath="$PROJECT_DIR$/target/classes/Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/utils/Constant.groovy" afterPath="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SETNewScoop.iml" afterPath="$PROJECT_DIR$/SETNewScoop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/validation.js" afterPath="$PROJECT_DIR$/web-app/js/validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c8231efe-a543-4f78-adac-3f95d12f25d5" name="Failed commit: Default" comment="Besto : delete test.gsp" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="LoanController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="45.869564" vertical-offset="4795" max-vertical-offset="8024">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4795" max-vertical-offset="8024">
               <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
               <folding>
                 <element signature="e#25#52#0" expanded="true" />
@@ -49,7 +50,7 @@
       <file leaf-file-name="addLoan.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.48051947" vertical-offset="1544" max-vertical-offset="1853">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="1853">
               <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
               <folding />
             </state>
@@ -62,18 +63,18 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5333333" vertical-offset="1300" max-vertical-offset="1615">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1615">
               <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/loan/_form.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7364865" vertical-offset="5392" max-vertical-offset="6120">
-              <caret line="330" column="129" selection-start-line="330" selection-start-column="129" selection-end-line="330" selection-end-column="129" />
+            <state vertical-scroll-proportion="-6.836735" vertical-offset="5598" max-vertical-offset="6120">
+              <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,10 +90,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Constant.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17662337" vertical-offset="0" max-vertical-offset="385">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="create.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/loan/create.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1836735" vertical-offset="248" max-vertical-offset="646">
+            <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="646">
               <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding />
             </state>
@@ -159,10 +170,10 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/loan/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
         <option value="$PROJECT_DIR$/web-app/js/validation.js" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
       </list>
     </option>
   </component>
@@ -200,7 +211,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -438,6 +448,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -795,6 +806,7 @@
       <workItem from="1448634065360" duration="11322000" />
       <workItem from="1448646067094" duration="1944000" />
       <workItem from="1448681173779" duration="5026000" />
+      <workItem from="1448688026650" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="add logout">
       <created>1444840887740</created>
@@ -920,7 +932,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218281000" />
+    <option name="totallyTimeSpent" value="218473000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -944,7 +956,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -960,7 +972,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1342,20 +1354,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1424581" vertical-offset="0" max-vertical-offset="442">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5333333" vertical-offset="1300" max-vertical-offset="1615">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1615">
           <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
           <folding />
         </state>
@@ -1363,7 +1367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/loan/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1836735" vertical-offset="248" max-vertical-offset="646">
+        <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="646">
           <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding />
         </state>
@@ -1379,7 +1383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/loan/addLoan.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.48051947" vertical-offset="1544" max-vertical-offset="1853">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1544" max-vertical-offset="1853">
           <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
           <folding />
         </state>
@@ -1387,7 +1391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoanController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="45.869564" vertical-offset="4795" max-vertical-offset="8024">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4795" max-vertical-offset="8024">
           <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
           <folding>
             <element signature="e#25#52#0" expanded="true" />
@@ -1397,8 +1401,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/loan/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7364865" vertical-offset="5392" max-vertical-offset="6120">
-          <caret line="330" column="129" selection-start-line="330" selection-start-column="129" selection-end-line="330" selection-end-column="129" />
+        <state vertical-scroll-proportion="-6.836735" vertical-offset="5598" max-vertical-offset="6120">
+          <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/utils/Constant.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17662337" vertical-offset="0" max-vertical-offset="385">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
