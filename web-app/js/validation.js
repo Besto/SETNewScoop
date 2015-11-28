@@ -25,6 +25,13 @@ function validateField(id,type,required){
     }
 
     //set display
+    showDisplay(result,id,alertMsg);
+
+    console.log('validateForm '+id+'> '+result);
+    return result;
+}
+
+function showDisplay(result,id,alertMsg){
     if(result==false){
         if($('#'+id+'_group').hasClass('has-error')) {
             $('#'+id+'_group small').html(alertMsg);
@@ -38,7 +45,4 @@ function validateField(id,type,required){
         $('#'+id+'_group').removeClass('has-error');
         $('#'+id+'_group small').remove();
     }
-
-    console.log('validateForm '+id+'> '+result);
-    return result;
 }

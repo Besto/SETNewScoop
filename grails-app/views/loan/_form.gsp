@@ -81,8 +81,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="form-group has-feedback">
-			<label class="col-sm-offset-1 col-sm-2">ข้อมูลการค้ำประกัน</label>
+		<div id="guarantee_info_group" class="form-group has-feedback">
+			<label class="control-label col-sm-offset-1 col-sm-2">ข้อมูลการค้ำประกัน</label>
 			<div class="col-sm-2">
 				<div class="checkbox">
 					<label class="control-label">
@@ -117,6 +117,7 @@
 				</div>
 				<div class="col-sm-2">บาท</div>
 			</div>
+			<div id="guarantee_info"></div>
 		</div>
 		<div class="form-group has-feedback">
 			<div class="col-md-offset-9 col-md-2" align="right">
@@ -246,8 +247,19 @@
 		}
 	}
 
+	function calculatePeopleGuarantee(){
+		var sumPeopleGuarantee = 0;
+		$("input[name='money_guarantee']").each(function() {
+			var value = parseFloat($(this).val());
+			sumPeopleGuarantee = sumPeopleGuarantee + value;
+		});
+
+		$('#loan_guarantee').val(sumPeopleGuarantee);
+	}
+
 	function toggleCheckbox(id){
 		$(id).prop('disabled', function (_, val) { return ! val; });
+		$(id).val('');
 
 		if(id=='#loan_guarantee'){
 			$('#add_guarantee_button').toggle();
@@ -255,10 +267,7 @@
 			$('#i_guarantee').val('');
 		}
 	}
-	/*function calculateTotalGuarantee(){
-		var money_guarantee = $('input[name="money_guarantee"]').val();
-		alert(money_guarantee);
-	}*/
+
 
 	$(document).ready(function() {
 		calculateMPaidMonth();
@@ -291,6 +300,39 @@
 		});
 	}
 
+	function validateGuarantee(){
+		var result = true;
+		var loan = $('#m_loan').val();
+		var loan_share = $('#loan_share').val();
+		if(loan_share==''){
+			loan_share = 0;
+		}
+		else loan_share = parseFloat(loan_share);
+
+		var loan_saving = $('#loan_saving').val();
+		if(loan_saving==''){
+			loan_saving = 0;
+		}
+		else loan_saving = parseFloat(loan_saving);
+
+		var loan_guarantee = $('#loan_guarantee').val();
+		if(loan_guarantee==''){
+			loan_guarantee = 0;
+		}
+		else loan_guarantee = parseFloat(loan_guarantee);
+
+		var sum_guarantee = loan_share+loan_saving+loan_guarantee;
+
+		alert(sum_guarantee +' = '+ loan_share+' + '+loan_saving+' + '+loan_guarantee);
+		if(loan!=sum_guarantee){
+			result = false;
+		}
+
+		showDisplay(result,'guarantee_info','เงินค้ำประกันไม่ตรงกับจำนวนเงินกู้ (เงินค้ำ = '+sum_guarantee+',เงินกู้ = '+loan+')');
+
+		return result;
+	}
+
 	function validateForm(){
 		var validateFlag = true;
 		var result;
@@ -301,6 +343,9 @@
 		result = validateField("q_month",'number',true);
 		validateFlag = validateFlag && result;
 		result = validateField("e_reason",'',true);
+		validateFlag = validateFlag && result;
+		calculatePeopleGuarantee();
+		result = validateGuarantee();
 		validateFlag = validateFlag && result;
 
 		return validateFlag;

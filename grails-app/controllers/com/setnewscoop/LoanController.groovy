@@ -213,11 +213,11 @@ class LoanController {
         List money_guaranteeList = params.list('money_guarantee');
         Double money_guarantee1 = null;
         if(money_guaranteeList.size() > 0){
-            money_guarantee1 = money_guaranteeList.get(0);
+            money_guarantee1 = Double.parseDouble(money_guaranteeList.get(0));
         }
         Double money_guarantee2 = null;
         if(money_guaranteeList.size() > 1){
-            money_guarantee2 = money_guaranteeList.get(1);
+            money_guarantee2 = Double.parseDouble(money_guaranteeList.get(1));
         }
         loanInstance.money_guarantee1 = money_guarantee1;
         loanInstance.money_guarantee2 = money_guarantee2;
