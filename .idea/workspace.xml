@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b760f13-f59d-4027-b1bb-d1dd74041f4d" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;grails-app/utils/com/setnewscoop/Constant.groovy&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Config.groovy" />
-      <change type="DELETED" beforePath="D:\Project\SCOOP\SETNewScoop\grails-app\utils\Constant.groovy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy" afterPath="$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SETNewScoop.iml" afterPath="$PROJECT_DIR$/SETNewScoop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/member/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/member/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/member/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/member/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c8231efe-a543-4f78-adac-3f95d12f25d5" name="Failed commit: Default" comment="Besto : delete test.gsp" />
@@ -105,8 +97,8 @@
           <file leaf-file-name="Constant.groovy" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22934233" vertical-offset="0" max-vertical-offset="593">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.48735243" vertical-offset="0" max-vertical-offset="595">
+                  <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -141,8 +133,8 @@
           <file leaf-file-name="create.gsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/views/member/create.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.367347" vertical-offset="102" max-vertical-offset="663">
-                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state vertical-scroll-proportion="-6.244898" vertical-offset="0" max-vertical-offset="663">
+                  <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -151,8 +143,8 @@
           <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/views/member/_form.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44821092" vertical-offset="2329" max-vertical-offset="3298">
-                  <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+                <state vertical-scroll-proportion="-1.1525424" vertical-offset="1479" max-vertical-offset="3298">
+                  <caret line="51" column="101" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="101" />
                   <folding />
                 </state>
               </provider>
@@ -230,10 +222,10 @@
         <option value="$PROJECT_DIR$/grails-app/views/loan/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/utils/Constant.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/loan/_infoForm.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/member/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/member/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy" />
       </list>
     </option>
   </component>
@@ -944,7 +936,7 @@
       <workItem from="1448790238551" duration="7977000" />
       <workItem from="1448987554893" duration="2514000" />
       <workItem from="1449072524243" duration="3755000" />
-      <workItem from="1449557300645" duration="1675000" />
+      <workItem from="1449557300645" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="add logout">
       <created>1444840887740</created>
@@ -1024,11 +1016,23 @@
       <option name="project" value="LOCAL" />
       <updated>1448641932035</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;grails-app/utils/com/setnewscoop/Constant.groovy&#10;">
+      <created>1449559934091</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1449559934091</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;grails-app/utils/com/setnewscoop/Constant.groovy&#10;">
+      <created>1449559952328</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1449559952328</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225094000" />
+    <option name="totallyTimeSpent" value="225415000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1052,7 +1056,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1497,14 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/member/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.367347" vertical-offset="102" max-vertical-offset="663">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/member/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.489796" vertical-offset="0" max-vertical-offset="918">
@@ -1513,21 +1509,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/member/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22934233" vertical-offset="0" max-vertical-offset="593">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-6.244898" vertical-offset="0" max-vertical-offset="663">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/member/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44821092" vertical-offset="2329" max-vertical-offset="3298">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.1525424" vertical-offset="1479" max-vertical-offset="3298">
+          <caret line="51" column="101" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="101" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/utils/com/setnewscoop/Constant.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48735243" vertical-offset="0" max-vertical-offset="595">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
