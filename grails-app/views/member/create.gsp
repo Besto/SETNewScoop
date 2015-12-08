@@ -18,7 +18,17 @@
 <div class="well">
     <div class="content scaffold-create" role="main">
         <h1 class="page-header">เพิ่มข้อมูลสมาชิกสหกรณ์</h1>
-        <g:form class="form-horizontal">
+        <g:if test="${errCode}">
+            <g:set var="code" value="member.errorcode.create.${errCode}"/>
+            <g:if test="${errCode=='1000'}">
+                <div class="alert alert-success" role="alert">${message(code: code)}</div>
+            </g:if>
+            <g:else>
+                <div class="alert alert-danger" role="alert">${message(code: code)}</div>
+            </g:else>
+        </g:if>
+
+        <g:form class="form-horizontal" action="save" onsubmit="return validateForm();">
 
             <g:render template="form"/>
 
