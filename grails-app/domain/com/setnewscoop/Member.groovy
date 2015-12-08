@@ -1,5 +1,7 @@
 package com.setnewscoop
 
+import org.grails.databinding.BindingFormat
+
 class Member {
 
     Integer id;
@@ -7,6 +9,7 @@ class Member {
     String n_title;
     String n_first;
     String n_last;
+    @BindingFormat('dd/MM/yyyy')
     Date d_birth;
     String a_address1;
     String a_address2;
@@ -18,11 +21,19 @@ class Member {
     String e_div;
     String e_dep;
     String e_off_tel;
+    @BindingFormat('dd/MM/yyyy')
     Date d_member;
     Double m_share;
     Double m_tot_share;
     Integer q_time;
     Date d_expired;
+
+    /*Add 2015/12/08 by Oz*/
+    @BindingFormat('dd/MM/yyyy')
+    Date d_start;
+    String title_other;
+    String e_mobile;
+    String e_mail;
 
     static mapping = {
         version false
@@ -47,6 +58,11 @@ class Member {
         m_tot_share column: "m_tot_share", sqlType: "double", length: 3
         q_time column: "q_time", sqlType: "int", length: 11
         d_expired column: "d_expired", sqlType: "datetime", length: 3
+
+        d_start column: "d_start", sqlType: "datetime"
+        title_other column: "title_other", sqlType: "varchar", length: 10
+        e_mobile column: "e_mobile", sqlType: "varchar", length: 20
+        e_mail column: "e_mail", sqlType: "varchar", length: 50
     }
 
     static constraints = {
@@ -70,5 +86,9 @@ class Member {
         m_tot_share nullable:true
         q_time nullable:true
         d_expired nullable:true
+        d_start nullable:true
+        title_other nullable:true
+        e_mobile nullable:true
+        e_mail nullable:true
     }
 }
