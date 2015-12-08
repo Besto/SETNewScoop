@@ -349,7 +349,7 @@ public class AnnotationFilterInvocationDefinition extends AbstractFilterInvocati
 			String key = pattern.toLowerCase();
 			InterceptedUrl replaced = storeMapping(key, method, configAttributes);
 			if (replaced != null) {
-				log.warn("replaced rule for '{}' with tokens {} with tokens {}", new Object[] { key, replaced.getConfigAttributes(), configAttributes });
+				log.warn("replaced rule for '{}' with tokens {} with tokens {}", key, replaced.getConfigAttributes(), configAttributes);
 			}
 		}
 	}

@@ -87,7 +87,7 @@ public class SecurityEventListener implements ApplicationListener<ApplicationEve
 	protected void call(final ApplicationEvent e, final String closureName) {
 		Object closure = SpringSecurityUtils.getSecurityConfig().get(closureName);
 		if (closure instanceof Closure) {
-			((Closure)closure).call(new Object[] { e, applicationContext });
+			((Closure)closure).call(e, applicationContext);
 		}
 	}
 

@@ -1,3 +1,4 @@
+package com.setnewscoop
 
 class Constant {
     public static int numGuarantee = 2;
