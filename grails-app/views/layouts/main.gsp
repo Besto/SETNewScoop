@@ -101,31 +101,34 @@
 		<div id="sidebar-left" class="col-xs-2 col-sm-2">
 			<ul class="nav main-menu">
 				<sec:ifAnyGranted roles="ADMIN">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle">
-						<i class="fa fa-user"></i>
-						<span class="hidden-xs">จัดการ User</span>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="/SETNewScoop/user/create">สร้าง User</a></li>
-						<li><a href="/SETNewScoop/user/">รายการ User</a></li>
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="/SETNewScoop/queryPage">
-						<i class="fa fa-table"></i>
-						<span class="hidden-xs">Query Page</span>
-					</a>
-				</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle">
+							<i class="fa fa-user"></i>
+							<span class="hidden-xs">จัดการ User</span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="/SETNewScoop/user/create">สร้าง User</a></li>
+							<li><a href="/SETNewScoop/user/">รายการ User</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="/SETNewScoop/queryPage">
+							<i class="fa fa-table"></i>
+							<span class="hidden-xs">Query Page</span>
+						</a>
+					</li>
 				</sec:ifAnyGranted>
 				<sec:ifAnyGranted roles="USER">
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle">
 							<i class="fa fa-user"></i>
-							<span class="hidden-xs">สมาชิกสหกรณ์</span>
+							<span class="hidden-xs">ข้อมูลสมาชิกสหกรณ์</span>
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="/SETNewScoop/member/create">สมัครสมาชิกสหกรณ์</a></li>
+							<li><a href="/SETNewScoop/member/editMember">แก้ไขข้อมูลสมาชิก</a></li>
+							<li><a href="/SETNewScoop/member/resignMember">สมาชิกลาออก</a></li>
+							<li><a href="/SETNewScoop/member/changeSharedMember">การเปลี่ยนแปลงค่าหุ้นของสมาชิก</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
