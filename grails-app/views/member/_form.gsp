@@ -1,3 +1,4 @@
+<%@ page import="com.setnewscoop.Constant" %>
 <div class="box-content">
     <h4 class="page-header">ข้อมูลทั่วไป</h4>
 

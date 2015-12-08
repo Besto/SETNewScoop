@@ -5,6 +5,8 @@ class Constant {
     public static int maxGuaranteeBalance = 150000;
 
 
+    public  static  int SHARED = 10;
+
     public  static ArrayList<String> COMPANY = new ArrayList<String>() {{
         add("SET");
         add("FKH");
