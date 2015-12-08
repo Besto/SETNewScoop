@@ -1,6 +1,7 @@
 package com.setnewscoop
 
-
+import java.text.DateFormat
+import java.text.SimpleDateFormat
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
@@ -20,30 +21,47 @@ class MemberController {
     }
 
     def create() {
-        respond new Member(params)
+
+        def memberId = Member.createCriteria().get {
+                        projections {
+                            max "id"
+                        }
+                    } as int
+        memberId++;
+        render view: "create" ,model: [memberId:memberId]
     }
 
     @Transactional
-    def save(Member memberInstance) {
-        if (memberInstance == null) {
-            notFound()
-            return
-        }
+    def save() {
 
-        if (memberInstance.hasErrors()) {
-            respond memberInstance.errors, view:'create'
-            return
-        }
-
-        memberInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'member.label', default: 'Member'), memberInstance.id])
-                redirect memberInstance
+        def memberId = Member.createCriteria().get {
+            projections {
+                max "id"
             }
-            '*' { respond memberInstance, [status: CREATED] }
+        } as int
+        memberId++;
+
+        Member memberInstance = new Member();
+        bindData(memberInstance,params);
+
+//        DateFormat df = new SimpleDateFormat("dd/MM/yyy",Locale.US);
+//        String dStart = params.d_start;
+//        Date d_start = df.parse(dStart);
+//        memberInstance.d_start = d_start;
+//
+//        String dMember = params.d_member_string;
+//        Date _dMember = df.parse(dMember);
+//        memberInstance.d_member = _dMember;
+
+        println("memberInstance.d_member : " + memberInstance.d_member);
+
+        if(!memberInstance.save(flush: true ,failOnError: true)){
+            render(view:  "create" ,model: [memberInstance:memberInstance,memberId: memberId])
         }
+
+        memberId++;
+        render(view: "create",model: [errCode:"1000",memberId: memberId]);
+
     }
 
     def edit(Member memberInstance) {
