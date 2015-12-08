@@ -15,12 +15,12 @@ class Config {
     }
 
     static {
-        println "################### initializing Config Domain #######################"
+        println "################### initializing Config Domain ######################"
 
         //TODO load data from table
         Config titleMrTh = Config.findByConfigName('title_mr_th')
         Constant.titleMrTh = titleMrTh.configValue
 
-        println "################### End initializing Config Domain #######################"
+        println "################### End initializing Config Domain ######################"
     }
 }

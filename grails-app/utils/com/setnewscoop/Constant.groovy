@@ -7,5 +7,4 @@ class Constant {
     public static int maxGuaranteeBalance = 150000;
 
     public static String titleMrTh;
-
 }
