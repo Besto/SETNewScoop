@@ -8,41 +8,39 @@
 </head>
 
 <body>
-<a href="#edit-member" class="skip" tabindex="-1"><g:message code="default.link.skip.label"
-                                                             default="Skip to content&hellip;"/></a>
-
-<div class="nav" role="navigation">
-    <ul>
-        <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]"/></g:link></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label"
-                                                              args="[entityName]"/></g:link></li>
-    </ul>
+<div class="row">
+    <div id="breadcrumb" class="col-md-12">
+        <ol class="breadcrumb">
+            <li><g:link class="list" action="">ข้อมูลสมาชิกสหกรณ์</g:link></li>
+            <li><a href="#">แก้ไขข้อมูลสมาชิกสหกรณ์</a></li>
+        </ol>
+    </div>
 </div>
 
-<div id="edit-member" class="content scaffold-edit" role="main">
-    <h1><g:message code="default.edit.label" args="[entityName]"/></h1>
-    <g:if test="${flash.message}">
-        <div class="message" role="status">${flash.message}</div>
-    </g:if>
-    <g:hasErrors bean="${memberInstance}">
-        <ul class="errors" role="alert">
-            <g:eachError bean="${memberInstance}" var="error">
-                <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message
-                        error="${error}"/></li>
-            </g:eachError>
-        </ul>
-    </g:hasErrors>
-    <g:form url="[resource: memberInstance, action: 'update']" method="PUT">
-        <g:hiddenField name="version" value="${memberInstance?.version}"/>
-        <fieldset class="form">
+<div class="well">
+    <div class="content scaffold-create" role="main">
+        <h1 class="page-header">แก้ไขข้อมูลสมาชิกสหกรณ์</h1>
+        <g:if test="${errCode}">
+            <g:set var="code" value="member.errorcode.create.${errCode}"/>
+            <g:if test="${errCode=='1000'}">
+                <div class="alert alert-success" role="alert">${message(code: code)}</div>
+            </g:if>
+            <g:else>
+                <div class="alert alert-danger" role="alert">${message(code: code)}</div>
+            </g:else>
+        </g:if>
+
+        <g:form class="form-horizontal" action="update" onsubmit="return validateFormEdit();">
+
             <g:render template="form"/>
-        </fieldset>
-        <fieldset class="buttons">
-            <g:actionSubmit class="save" action="update"
-                            value="${message(code: 'default.button.update.label', default: 'Update')}"/>
-        </fieldset>
-    </g:form>
+
+            <div align="center">
+                <g:submitButton name="update" class="btn btn-primary btn-label-left"
+                                value="${message(code: 'default.button.update.label', default: 'Update')}"/>
+                <a href="./editMember" class="btn btn-primary btn-label-left" style="margin-left: 20px">${message(code: 'default.button.back.label', default: 'Back')}</a>
+            </div>
+        </g:form>
+    </div>
 </div>
 </body>
 </html>
