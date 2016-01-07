@@ -47,7 +47,7 @@ class MemberController {
 
         String shared = params.m_share;
         memberInstance.m_share = Double.parseDouble(shared.replaceAll(",", ""));
-
+        memberInstance.m_tot_share = 0;
         if(!memberInstance.save(flush: true ,failOnError: true)){
             render(view:  "create" ,model: [memberInstance:memberInstance,memberId: memberId])
         }
