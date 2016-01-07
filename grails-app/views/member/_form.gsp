@@ -1,4 +1,7 @@
 <%@ page import="com.setnewscoop.Constant" %>
+<%@ page import="com.setnewscoop.EnumCompany" %>
+<%@ page import="com.setnewscoop.EnumStatus" %>
+<%@ page import="com.setnewscoop.EnumTitle" %>
 <div class="box-content">
     <h4 class="page-header">ข้อมูลทั่วไป</h4>
 
@@ -21,7 +24,8 @@
         <div id="n_company_group" class="form-group has-feedback col-md-6">
             <label class="control-label col-sm-offset-1 col-sm-4">บริษัท</label>
             <div class="col-sm-7">
-                <g:select id="n_company" class="form-control" name="n_company" from="${Constant.COMPANY}" value="${memberInsatnce?.n_company}" noSelection="['':'-โปรดระบุ-']"/>
+                %{--<g:select id="n_company" class="form-control" name="n_company" from="${Constant.COMPANY}" value="${memberInstance?.n_company}" noSelection="['':'-โปรดระบุ-']"/>--}%
+                <g:select id="n_company" class="form-control" name="n_company" from="${EnumCompany.values()}" value="${memberInstance?.n_company}" optionKey="key" noSelection="['':'-โปรดระบุ-']"/>
             </div>
         </div>
         <div class="form-group has-feedback col-md-6">
@@ -39,10 +43,11 @@
                 <label class="fa fa-calendar form-control-feedback" for="d_start"></label>
             </div>
         </div>
-        <div id="_f_status_group" class="form-group has-feedback col-md-6">
+        <div id="f_status_group" class="form-group has-feedback col-md-6">
             <label class="control-label col-sm-offset-1 col-sm-4">สถานภาพ</label>
             <div class="col-sm-7">
-                <g:select id="_f_status" class="form-control" name="_f_status" from="${Constant.MEMBER_STATUS}" value="${memberInstance?.f_status}" noSelection="['':'-โปรดระบุ-']"/>
+                %{--<g:select id="_f_status" class="form-control" name="_f_status" from="${Constant.MEMBER_STATUS}" value="${memberInstance?.f_status}" noSelection="['':'-โปรดระบุ-']"/>--}%
+                <g:select id="f_status" class="form-control" name="f_status" from="${EnumStatus.values()}" value="${memberInstance?.f_status}" valueMessagePrefix="enum.value" optionKey="value" noSelection="['':'-โปรดระบุ-']"/>
             </div>
         </div>
     </div>
@@ -51,7 +56,8 @@
         <div id="n_title_group" class="form-group has-feedback col-md-6">
             <label class="control-label col-sm-offset-1 col-sm-4">คำนำหน้า</label>
             <div class="col-sm-4">
-                <g:select id="n_title" name="n_title"  class="form-control" from="${Constant.MEMBER_TITLE}" value="${memberInstance?.n_title}" noSelection="['':'-โปรดระบุ-']"/>
+                %{--<g:select id="n_title" name="n_title"  class="form-control" from="${Constant.MEMBER_TITLE}" value="${memberInstance?.n_title}" noSelection="['':'-โปรดระบุ-']"/>--}%
+                <g:select id="n_title" name="n_title"  class="form-control" from="${EnumTitle.values()}" value="${memberInstance?.n_title}" optionKey="value" noSelection="['':'-โปรดระบุ-']"/>
             </div>
             <div id="titleText" class="col-sm-3">
                 <g:if test="${type == 'edit' && memberInstance.title_other}">
@@ -184,7 +190,7 @@
             <div class="form-group has-feedback col-md-6">
                 <label class="control-label col-sm-offset-1 col-sm-4">ค่าหุ้นสะสม</label>
                 <div class="col-sm-6">
-                    <label class="control-label"><g:formatNumber number="${memberInstance?.m_tot_share}" format="#,###,###.00"/></label>
+                    <label class="control-label"><g:formatNumber number="${memberInstance?.m_tot_share}" format="#,###,##0.00"/></label>
                 </div>
                 <div class="col-sm-1">
                     <label class="control-label">บาท</label>
@@ -193,7 +199,7 @@
             <div class="form-group has-feedback col-md-6">
                 <label class="control-label col-sm-offset-1 col-sm-4">คิดเป็นมูลค่า</label>
                 <div class="col-sm-6">
-                    <label class="control-label"><g:formatNumber number="${memberInstance?.m_share/Constant.SHARED}" format="#,###,###" /></label>
+                    <label class="control-label"><g:formatNumber number="${memberInstance?.m_tot_share/Constant.SHARED}" format="#,###,###" /></label>
                 </div>
                 <div class="col-sm-1">
                     <label class="control-label">หุ้น</label>
@@ -266,7 +272,7 @@
          validateFlag = validateFlag && result;
          result = validateField("d_start",'',true);
          validateFlag = validateFlag && result;
-         result = validateField("_f_status",'',true);
+         result = validateField("f_status",'',true);
          validateFlag = validateFlag && result;
          result = validateField("n_title",'',true);
          validateFlag = validateFlag && result;
@@ -294,7 +300,7 @@
         validateFlag = validateFlag && result;
         result = validateField("d_start",'',true);
         validateFlag = validateFlag && result;
-        result = validateField("_f_status",'',true);
+        result = validateField("f_status",'',true);
         validateFlag = validateFlag && result;
         result = validateField("n_title",'',true);
         validateFlag = validateFlag && result;
