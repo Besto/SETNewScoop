@@ -10,7 +10,7 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class MemberController {
 
-    static allowedMethods = [create: ["POST","GET"], save: "POST", update: "POST", delete: "POST"]
+    static allowedMethods = [create: ["POST","GET"], save: "POST", update: "POST", delete: "POST", updateShare: "POST"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -107,7 +107,7 @@ class MemberController {
                 if (!lastName.equals("")) {
                     eq("n_last", lastName)
                 }
-                isNull("d_expired")
+                /*isNull("d_expired")*/
             }
 
             String errCode = "";
@@ -173,7 +173,7 @@ class MemberController {
                 if (!lastName.equals("")) {
                     eq("n_last", lastName)
                 }
-                isNull("d_expired")
+                /*isNull("d_expired")*/
             }
 
             String errCode = "";
@@ -239,7 +239,7 @@ class MemberController {
                 if (!lastName.equals("")) {
                     eq("n_last", lastName)
                 }
-                isNull("d_expired")
+                /*isNull("d_expired")*/
             }
 
             String errCode = "";
@@ -273,6 +273,77 @@ class MemberController {
     }
 
     @Transactional
+    def updateShare(){
+
+        double m_old_share = 0;
+
+        println("Call update Share");
+        String purpose = params.purpose;
+        println("purpose : " + purpose);
+
+        ChgShare chgShareInstance = new ChgShare();
+        bindData(chgShareInstance,params);
+        String m_new_share = params.m_new_share;
+        chgShareInstance.m_new_share = Double.parseDouble(m_new_share.replaceAll(",", ""));
+
+        println("chgShareInstance i_member: " + chgShareInstance.i_member)
+        println("chgShareInstance d_effect: " + chgShareInstance.d_effect)
+        println("chgShareInstance m_new_share: " + chgShareInstance.m_new_share)
+
+        chgShareInstance.d_trans = chgShareInstance.d_effect;
+
+        def result = ChgShare.executeQuery("select m_new_share from ChgShare " +
+                "where i_member = ? and id = (select  max(id) from ChgShare where i_member = ?)",
+                [chgShareInstance.i_member, chgShareInstance.i_member])
+
+        if(result.size() != 0){
+            m_old_share = (Double)result.get(0);
+
+        }
+        println("chgShareOld : " + m_old_share)
+
+        if(purpose.equals("1")){
+
+            chgShareInstance.m_old_share = m_old_share;
+            chgShareInstance.f_change = ""
+            chgShareInstance.save(flush: true ,failOnError: true)
+            render view: "searchMember", model: [type: "changeShared", errCode: "1200"];
+
+        }else if(purpose.equals("2")){
+
+            chgShareInstance.m_old_share = m_old_share;
+            chgShareInstance.f_change = "";
+            chgShareInstance.m_new_share = 0;
+            chgShareInstance.save(flush: true ,failOnError: true)
+            render view: "searchMember", model: [type: "changeShared", errCode: "1200"];
+
+        }else if(purpose.equals("3")){
+
+            def loanResult = Loan.executeQuery("select id from Loan" +
+                    " where member = ? and f_status = ? and left(s_trans,1) = ?",
+            [chgShareInstance.i_member,"","N"])
+
+            println("loanResult.size() : "+loanResult.size())
+
+            if(loanResult.size() != 0){
+
+                render view: "searchMember", model: [type: "changeShared", errCode: "9000", NumLoan: loanResult.id];
+
+            }else {
+
+                chgShareInstance.m_old_share = m_old_share;
+                chgShareInstance.f_change = "1";
+                chgShareInstance.m_new_share = 0;
+                chgShareInstance.save(flush: true, failOnError: true)
+
+            }
+        }
+
+
+
+    }
+
+    @Transactional
     def update() {
         Member memberInstance = Member.findById(params.memberId);
 
@@ -283,7 +354,7 @@ class MemberController {
         }
 
         println(">>>update success");
-        render view: "searchMember", model: [type: "edit", errCode: "1000"];
+        render view: "searchMember", model: [type: "edit", errCode: "1100"];
     }
 
     @Transactional
