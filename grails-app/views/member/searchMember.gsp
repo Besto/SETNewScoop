@@ -22,6 +22,10 @@
         <g:set var="action" value="resignMember"/>
         <g:set var="labelPage" value="สมาชิกลาออก"/>
     </g:elseif>
+    <g:elseif test="${type=='changeShared'}" >
+        <g:set var="action" value="changeSharedMember"/>
+        <g:set var="labelPage" value="การเปลี่ยนแปลงค่าหุ้นของสมาชิก"/>
+    </g:elseif>
     <div class="row">
         <div id="breadcrumb" class="col-md-12">
             <ol class="breadcrumb">
@@ -90,7 +94,15 @@
                             <td>${member.n_first}</td>
                             <td>${member.n_last}</td>
                             <td>
-                                <a class="btn btn-warning" href="./edit?id_member=${member.id}">แก้ไข</a>&nbsp;&nbsp;
+                                <g:if test="${type=='edit'}">
+                                    <a class="btn btn-warning" href="./edit?id_member=${member.id}">แก้ไข</a>&nbsp;&nbsp;
+                                </g:if>
+                                <g:elseif test="${type=='resign'}" >
+                                    <a class="btn btn-warning" href="./edit?id_member=${member.id}">แก้ไข</a>&nbsp;&nbsp;
+                                </g:elseif>
+                                <g:elseif test="${type=='changeShared'}" >
+                                    <a class="btn btn-warning" href="./changeShared?id_member=${member.id}">แก้ไข</a>&nbsp;&nbsp;
+                                </g:elseif>
                             </td>
                         </tr>
                     </g:each>
