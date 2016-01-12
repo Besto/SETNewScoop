@@ -19,8 +19,8 @@
     <div class="content scaffold-create" role="main">
         <h1 class="page-header">เพิ่มข้อมูลสมาชิกสหกรณ์</h1>
         <g:if test="${errCode}">
-            <g:set var="code" value="member.errorcode.create.${errCode}"/>
-            <g:if test="${errCode=='1000'}">
+            <g:set var="code" value="member.errorcode.${errCode}"/>
+            <g:if test="${errCode.startsWith("1")}">
                 <div class="alert alert-success" role="alert">${message(code: code)}</div>
             </g:if>
             <g:else>

@@ -39,12 +39,17 @@
         <div>
             <p align="center" class="lead">ค้นหาข้อมูลสมาชิก</p>
             <g:if test="${errCode}">
-                <g:set var="code" value="member.errorcode.create.${errCode}"/>
-                <g:if test="${errCode=='1000'}">
+                <g:set var="code" value="member.errorcode.${errCode}"/>
+                <g:if test="${errCode.startsWith("1")}">
                     <div class="alert alert-success" role="alert">${message(code: code)}</div>
                 </g:if>
                 <g:else>
-                    <div class="alert alert-danger" role="alert">${message(code: code)}</div>
+                    <div class="alert alert-danger" role="alert">${message(code: code)}
+                        <g:if test="${errCode=="9000"}">
+                            ${NumLoan}
+                        </g:if>
+
+                    </div>
                 </g:else>
             </g:if>
             <g:form action="${action}" class="form-horizontal">
