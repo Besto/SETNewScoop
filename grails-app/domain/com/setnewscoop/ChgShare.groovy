@@ -1,22 +1,25 @@
 package com.setnewscoop
 
+import org.grails.databinding.BindingFormat
+
 /**
  * Created by Oz on 1/12/2016.
  */
 class ChgShare {
 
-    String id;
     String i_member;
+    @BindingFormat('dd/MM/yyyy')
     Date d_trans;
     Double m_old_share;
     Double m_new_share;
+    @BindingFormat('dd/MM/yyyy')
     Date d_effect;
     String f_change;
 
     static mapping = {
 
         version false
-        id generator:"increment", column: "id", sqlType: "varchar", length: 4
+        id generator:"increment", column: "id", sqlType: "INT"
         i_member column: "i_member", sqlType: "varchar", length: 4
         d_trans column: "d_trans", sqlType: "datetime"
         m_old_share column: "m_old_share", sqlType: "double"
@@ -28,7 +31,6 @@ class ChgShare {
     }
 
     static constraints = {
-        id nullable : false;
         i_member nullable : true;
         d_trans nullable : true;
         m_old_share nullable : true;
