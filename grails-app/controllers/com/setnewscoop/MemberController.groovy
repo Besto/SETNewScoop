@@ -253,6 +253,7 @@ class MemberController {
 
             if(resultCount == 1){
                 Member memberInstance = (Member) results.get(0);
+
                 render( view: "changeShared", model: [memberInstance: memberInstance])
             }else if (resultCount > 1){
                 render view: "searchMember", model: [type: "changeShared", members: results];
@@ -273,7 +274,7 @@ class MemberController {
     }
 
     @Transactional
-    def updateShare(){
+    def updateShare() {
 
         double m_old_share = 0;
 
@@ -282,11 +283,14 @@ class MemberController {
         println("purpose : " + purpose);
 
         ChgShare chgShareInstance = new ChgShare();
-        bindData(chgShareInstance,params);
+        bindData(chgShareInstance, params);
+
+        if (purpose.equals("1")) {
         String m_new_share = params.m_new_share;
         chgShareInstance.m_new_share = Double.parseDouble(m_new_share.replaceAll(",", ""));
+        }
 
-        println("chgShareInstance i_member: " + chgShareInstance.i_member)
+        println("chgShareInstance i_member: " + params.i_member)
         println("chgShareInstance d_effect: " + chgShareInstance.d_effect)
         println("chgShareInstance m_new_share: " + chgShareInstance.m_new_share)
 
@@ -294,7 +298,7 @@ class MemberController {
 
         def result = ChgShare.executeQuery("select m_new_share from ChgShare " +
                 "where i_member = ? and id = (select  max(id) from ChgShare where i_member = ?)",
-                [chgShareInstance.i_member, chgShareInstance.i_member])
+                [params.i_member, params.i_member])
 
         if(result.size() != 0){
             m_old_share = (Double)result.get(0);
@@ -319,15 +323,18 @@ class MemberController {
 
         }else if(purpose.equals("3")){
 
-            def loanResult = Loan.executeQuery("select id from Loan" +
-                    " where member = ? and f_status = ? and left(s_trans,1) = ?",
-            [chgShareInstance.i_member,"","N"])
+//            def loanResult = Loan.executeQuery("select id from Loan where member = ? and f_status = ? and left(s_trans,1) = ?",
+//            [params.member,"","N"])
+            int memberId = params.i_member as int
+            println memberId
+            def loanResult = Loan.executeQuery("select id from Loan as loan where loan.member.id = ?  and f_status = ? and  substring(s_trans, 1, 1) = ?", [memberId,"","N"])
 
             println("loanResult.size() : "+loanResult.size())
 
+
             if(loanResult.size() != 0){
 
-                render view: "searchMember", model: [type: "changeShared", errCode: "9000", NumLoan: loanResult.id];
+                render view: "searchMember", model: [type: "changeShared", errCode: "9000", NumLoan: loanResult.get(0)];
 
             }else {
 
@@ -335,6 +342,7 @@ class MemberController {
                 chgShareInstance.f_change = "1";
                 chgShareInstance.m_new_share = 0;
                 chgShareInstance.save(flush: true, failOnError: true)
+                render view: "searchMember", model: [type: "changeShared", errCode: "1200"];
 
             }
         }
