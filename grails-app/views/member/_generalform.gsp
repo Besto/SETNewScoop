@@ -6,11 +6,13 @@
 
         <label class="col-sm-offset-1 col-sm-3 control-label">รหัสสมาชิกสหกรณ์</label>
         <div class="col-sm-2">
-                ${memberInstance?.id}
+
+            <g:formatNumber number="${memberInstance?.id}" format="0000" />
+
         </div>
         <label class="col-sm-2 control-label">รหัสพนักงาน</label>
         <div class="col-sm-2">
-            ${memberInstance?.i_employee}
+            <g:formatNumber number="${memberInstance?.i_employee}" format="00000" />
         </div>
     </div>
     <div class="row">
