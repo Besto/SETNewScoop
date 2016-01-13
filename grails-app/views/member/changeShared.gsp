@@ -36,7 +36,8 @@
             <g:render template="generalForm"/>
 
             <br/>
-            <g:hiddenField name="i_member" value="${memberInstance?.id}"/>
+            <g:hiddenField name="i_member" value="${String.format( "%04d", memberInstance?.id) }"/>
+            %{--<g:hiddenField name="member" value="${memberInstance}"/>--}%
             <div class="box-content">
                 <h4 class="page-header">ข้อมูลการเปลี่ยนแปลงค่าหุ้น</h4>
 
