@@ -60,7 +60,7 @@
                 <g:select id="n_title" name="n_title"  class="form-control" from="${EnumTitle.values()}" value="${memberInstance?.n_title}" optionKey="value" noSelection="['':'-โปรดระบุ-']"/>
             </div>
             <div id="titleText" class="col-sm-3">
-                <g:if test="${type == 'edit' && memberInstance.title_other}">
+                <g:if test="${type == 'edit' && memberInstance?.n_title == 'อื่นๆ'}">
                     <input type="text" name="title_other" id="title_other" class="form-control" value="${memberInstance?.title_other}"/>
                 </g:if>
             </div>
