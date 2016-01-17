@@ -141,20 +141,6 @@
 							<li><a href="/SETNewScoop/loan/editLoan">แก้ไขข้อมูลสัญญาเงินกู้</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle">
-							<i class="fa fa-check"></i>
-								<span class="hidden-xs">การคำนวณ</span>
-						</a>
-						<ul class="dropdown-menu">
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle">
-							<i class="fa fa-file-text-o"></i>
-							<span class="hidden-xs">รายงาน</span>
-						</a>
-					</li>
 				</sec:ifAnyGranted>
 			</ul>
 		</div>
