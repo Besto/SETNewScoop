@@ -165,6 +165,62 @@
             <br/>
 
             <div class="box-content">
+                <h4 class="page-header">ข้อมูลเงินกู้</h4>
+
+                <table class="table m-table table-bordered table-hover table-heading" id="ticker-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>เลขที่สัญญา</th>
+                        <th>ยอดเงินกู้ (บาท)</th>
+                        <th>ยอดรวมเงินกู้ที่ส่งคืน (บาท)</th>
+                        <th>คงเหลือ (บาท)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <g:each in="${listRow1}" var="rows">
+                        <tr>
+                            <td>${rows.NAME}</td>
+                            <td>${rows.s_trans}</td>
+                            <td><g:formatNumber number="${rows.m_loan}" format="#,###,###.00" /></td>
+                            <td><g:formatNumber number="${rows.m_tot_return}" format="#,###,###.00" /></td>
+                            <td><g:formatNumber number="${rows.balance}" format="#,###,###.00" /></td>
+                        </tr>
+                    </g:each>
+                    </tbody>
+                </table>
+
+                <div class="box-content">
+                    <h4 class="page-header">ข้อมูลผู้ค้ำประกันสัญญาเงินกู้ประเภทต่างๆ</h4>
+
+                    <table class="table m-table table-bordered table-hover table-heading" id="ticker-table">
+                        <thead>
+                        <tr>
+                            <th>ลำดับ</th>
+                            <th>หมายเลขสมาชิกสหกรณ์</th>
+                            <th>ชื่อ-นามสกุลสมาชิก</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <g:each in="${listRow2}" var="rows">
+                            <tr>
+                                <td><g:formatNumber number="${rows.num}" format="###,###" /></td>
+                                <td>${rows.i_member}</td>
+                                <td>${rows.n_title}${rows.n_first}&nbsp;${rows.n_last}</td>
+                            </tr>
+                        </g:each>
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+
+            </div>
+
+            <br/>
+
+            <div class="box-content">
                 <h4 class="page-header">ข้อมูลรายการที่ค้ำประกันให้กับสมาชิกอืน</h4>
 
                 <table class="table m-table table-bordered table-hover table-heading" id="ticker-table">
@@ -176,18 +232,20 @@
                     </tr>
                     </thead>
                     <tbody>
+                    <g:each in="${listRow3}" var="rows">
                     <tr>
-                        <td class="m-ticker"><b>BRDM</b><span>Broadem Inc.</span></td>
-                        <td class="m-price">33.27</td>
-                        <td class="m-change"><i class="fa fa-angle-up"></i> 1.45 (27%)</td>
+                        <td>${rows.s_trans}</td>
+                        <td>${rows.i_member}</td>
+                        <td>${rows.n_title}${rows.n_first}&nbsp;${rows.n_last}</td>
                     </tr>
+                    </g:each>
                     </tbody>
                 </table>
 
 
 
             </div>
-
+            <br/>
             <div align="center">
                 <g:submitButton name="update" class="btn btn-primary btn-label-left"
                                 value="${message(code: 'default.button.update.label', default: 'Update')}"/>
