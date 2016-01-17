@@ -1,9 +1,9 @@
-package com.setnewscoop
+package com.setnewscoop;
 
-import java.text.DateFormat
-import java.text.SimpleDateFormat
-import java.text.DecimalFormat
-
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.text.DecimalFormat;
+import groovy.sql.Sql;
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -182,14 +182,23 @@ class MemberController {
 
             if (resultCount == 0) {
                 errCode = "1001" //not found
-                render view: "searchMember", model: [type: "edit", errCode: errCode];
+                render view: "searchMember", model: [type: "resign", errCode: errCode];
             }
 
             if(resultCount == 1){
                 Member memberInstance = (Member) results.get(0);
-                render( view: "edit", model: [memberInstance: memberInstance, memberId:memberInstance.id, type: 'edit'])
+
+                /*def sessionFactory
+                def example = {
+                    def sql = new Sql(sessionFactory.currentSession.connection())
+                    [ temp: sql.rows("SELECT s_trans, i_member FROM LOAN ") ]
+                }
+*/
+               /* groovy.sql.Sql.newInstance("jdbc:mysql://localhost/set_new_scoop", "root", "", "com.mysql.jdbc.Driver")*/
+
+                render( view: "resign", model: [memberInstance: memberInstance, memberId:memberInstance.id, type: 'resign'])
             }else if (resultCount > 1){
-                render view: "searchMember", model: [type: "edit", members: results];
+                render view: "searchMember", model: [type: "resign", members: results];
             }
 
         }else{
