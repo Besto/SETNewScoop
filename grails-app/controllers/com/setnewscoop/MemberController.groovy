@@ -1,9 +1,6 @@
-package com.setnewscoop;
+package com.setnewscoop
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.text.DecimalFormat;
-import groovy.sql.Sql;
+import groovy.sql.Sql
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -132,6 +129,9 @@ class MemberController {
         }
     }
 
+
+    def dataSource
+
     def resignMember(){
 
         int idMember = -1;
@@ -188,20 +188,45 @@ class MemberController {
             if(resultCount == 1){
                 Member memberInstance = (Member) results.get(0);
 
-                /*def sessionFactory
-                def example = {
-                    def sql = new Sql(sessionFactory.currentSession.connection())
-                    [ temp: sql.rows("SELECT s_trans, i_member FROM LOAN ") ]
-                }
-*/
-               /* groovy.sql.Sql.newInstance("jdbc:mysql://localhost/set_new_scoop", "root", "", "com.mysql.jdbc.Driver")*/
-               /* def sql = Sql.newInstance("jdbc:mysql://localhost/set_new_scoop", "root", "","com.mysql.jdbc.Driver")
-                sql.eachRow("SELECT s_trans, i_member FROM LOAN ")
-                        {
-                            println "Employee ${it.s_trans}}."
-                        }*/
 
-                render( view: "resign", model: [memberInstance: memberInstance, memberId:memberInstance.id, type: 'resign'])
+
+
+                def sql = new Sql(dataSource)
+
+
+                def rows1 = sql.rows("SELECT B.NAME, s_trans, m_loan, m_tot_return, round(m_loan-m_tot_return,2) as balance " +
+                        " FROM (select *, left(s_trans,1)  AS symbol from loan where i_member = "+idMember+" and f_status = '' " +
+                        " ) A INNER JOIN (SELECT NAME, SYMBOL FROM loan_type) B " +
+                        "ON A.symbol = B.symbol")
+
+                def rows2 = sql.rows("select @rownum := @rownum + 1 as num, Z.i_member, Z.n_title, Z.n_first, Z.n_last "+
+                        " from( " +
+                                " select  B.i_member, B.n_title, B.n_first, B.n_last " +
+                                " from loan A " +
+                                " inner join (select i_member, n_title, n_first, n_last from member) B"+
+                                " ON A.i_guarantee1 = B.i_member or A.i_guarantee2 = B.i_member"+
+                                " where A.i_member = 1081 and A.f_status = '' and (A.i_guarantee1 <> '' or A.i_guarantee2 <> '')"+
+                        " ) Z," +
+                        " (SELECT @rownum := 0) r")
+
+
+                def rows3 = sql.rows("SELECT A.i_member, n_title, n_first, n_last, B.s_trans" +
+                        " FROM MEMBER A INNER JOIN (" +
+                        " SELECT s_trans, i_member FROM LOAN " +
+                        " WHERE i_guarantee1 = "+idMember+" or i_guarantee2 = "+idMember+" and f_status = ''" +
+                        " UNION ALL" +
+                        " select s_trans,i_guarantee  from special where i_guarantee = "+idMember+" " +
+                        " ) B" +
+                        " ON A.i_member = B.i_member")
+
+                /*rows.each { row ->
+                    println(row.n_first)
+                }*/
+
+                sql.close()
+
+
+                render( view: "resign", model: [memberInstance: memberInstance, memberId:memberInstance.id, type: 'resign',listRow1: rows1, listRow2: rows2, listRow3: rows3])
             }else if (resultCount > 1){
                 render view: "searchMember", model: [type: "resign", members: results];
             }
