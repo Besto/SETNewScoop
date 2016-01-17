@@ -18,13 +18,13 @@
     <div class="row">
         <label class="col-sm-offset-1 col-sm-3 control-label">ชื่อสมาชิกสหกรณ์</label>
         <div class="col-sm-3">
-            ${memberInstance?.n_title}${memberInstance?.n_first}&nbsp;${n_last}
+            ${memberInstance?.n_title}${memberInstance?.n_first}&nbsp;${memberInstance?.n_last}
         </div>
     </div>
     <div class="row">
             <label class="col-sm-offset-1 col-sm-3 control-label">วันที่เป็นสมาชิกสหกรณ์</label>
             <div class="col-sm-3">
-                <g:formatDate format="dd/MM/yyyy" date="${memberInstance.d_member}"/>
+                <g:formatDate format="dd/MM/yyyy" date="${memberInstance?.d_member}"/>
             </div>
     </div>
     <div class="row">
