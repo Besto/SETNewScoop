@@ -195,6 +195,11 @@ class MemberController {
                 }
 */
                /* groovy.sql.Sql.newInstance("jdbc:mysql://localhost/set_new_scoop", "root", "", "com.mysql.jdbc.Driver")*/
+               /* def sql = Sql.newInstance("jdbc:mysql://localhost/set_new_scoop", "root", "","com.mysql.jdbc.Driver")
+                sql.eachRow("SELECT s_trans, i_member FROM LOAN ")
+                        {
+                            println "Employee ${it.s_trans}}."
+                        }*/
 
                 render( view: "resign", model: [memberInstance: memberInstance, memberId:memberInstance.id, type: 'resign'])
             }else if (resultCount > 1){
